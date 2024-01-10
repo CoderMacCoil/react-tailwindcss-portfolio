@@ -1,51 +1,46 @@
 // Import images
-import WebImage1 from '../images/web-project-1.jpg';
-import WebImage2 from '../images/web-project-2.jpg';
-import MobileImage1 from '../images/mobile-project-1.jpg';
-import MobileImage2 from '../images/mobile-project-2.jpg';
-import UIImage1 from '../images/ui-project-1.jpg';
-import UIImage2 from '../images/ui-project-2.jpg';
+import UserDesign from '../images/01-user-design.jpg';
+import Podcast from '../images/02-podcast.jpg';
+import Graph from '../images/03-graph.jpg';
+import Topic from '../images/04-topic.jpg';
+import XML from '../images/05-xml.jpg';
+import Program from '../images/06-programming.jpg';
 
 export const projectsData = [
 	{
 		id: 1,
-		title: 'Google Health Platform',
-		category: 'Web Application',
-		img: WebImage2,
-		ProjectHeader: {
-			title: 'Project Management UI - From Context',
-			publishDate: 'Jul 26, 2021',
-			tags: 'UI / Frontend',
-		},
+		title: 'User Design Manual',
+		category: 'Technical Writing',
+		img: UserDesign,
 	},
 	{
 		id: 2,
-		title: 'Phoenix Digital Agency',
-		category: 'Mobile Application',
-		img: MobileImage2,
+		title: 'Instructional Podcast',
+		category: 'Media',
+		img: Podcast,
 	},
 	{
 		id: 3,
-		title: 'Project Management UI',
-		category: 'UI/UX Design',
-		img: UIImage1,
+		title: 'Graph Redesign',
+		category: 'Technical Writing',
+		img: Graph,
 	},
 	{
 		id: 4,
-		title: 'Cloud Storage Platform',
-		category: 'UI/UX Design',
-		img: UIImage2,
+		title: 'Topic Based Writing',
+		category: 'Writing',
+		img: Topic,
 	},
 	{
 		id: 5,
-		title: 'React Social App',
-		category: 'Mobile Application',
-		img: MobileImage1,
+		title: 'DITA-XML',
+		category: 'Programming',
+		img: XML,
 	},
 	{
 		id: 6,
-		title: 'Apple Design System',
-		category: 'Web Application',
-		img: WebImage1,
+		title: 'Programming Projects',
+		category: 'Programming',
+		img: Program,
 	},
 ];
